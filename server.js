@@ -3,7 +3,6 @@ const app = express()
 const db = require("./db")
 
 const bodyparser = require("body-parser")
-
 app.use(express.json())
 
 app.get('/', (req, res) => res.send("welcome to the home page"))
